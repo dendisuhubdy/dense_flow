@@ -8,6 +8,9 @@
 #include "common.h"
 #include "easylogging++.h"
 
+using std::vector;
+using std::string;
+
 void calcDenseFlow(string file_name, int bound, int type, int step,
                    vector<vector<uchar> >& output_x,
                    vector<vector<uchar> >& output_y,
